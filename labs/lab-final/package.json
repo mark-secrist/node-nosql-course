@@ -1,0 +1,28 @@
+{
+  "name": "wineapp",
+  "version": "1.0.0",
+  "description": "This is the final version of the wine application with all features implemented from prior labs",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "node.js",
+    "couchbase",
+    "capella",
+    "webapp",
+    "nosql"
+  ],
+  "author": "Mark Secrist",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
